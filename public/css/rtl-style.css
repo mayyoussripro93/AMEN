@@ -1,0 +1,332 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+html.rtl, .rtl body {
+    direction: rtl;
+}
+
+.rtl .col-md-1, .rtl .col-md-10, .rtl .col-md-11, .rtl .col-md-12, .rtl .col-md-2, .rtl .col-md-3, .rtl .col-md-4, .rtl .col-md-5, .rtl .col-md-6, .rtl .col-md-7, .rtl .col-md-8, .rtl .col-md-9 {
+    float: right;
+}
+
+.rtl .navbar-nav > li {
+    float: right;
+}
+
+.rtl .navbar-nav > li.userbtn .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
+.rtl .dropdown-menu {
+    text-align: right;
+    left: auto;
+    /*right: 0;*/
+}
+
+.rtl .posts-list .media-left {
+    float: right;
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+.rtl .appwraper .titleTop {
+    text-align: right;
+}
+
+.rtl .catelist li a {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.rtl .catelist li a:before {
+    left: auto;
+    right: 0;
+    content: '\f0d9'
+}
+
+.rtl .footerWrap .quicklinks li a:before {
+    margin-left: 7px;
+    margin-right: 0;
+    content: '\f0d9'
+}
+
+.rtl .pull-right {
+    float: left !important;
+}
+
+.rtl .optionlist li {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.rtl .searchList li .jobimg {
+    float: right;
+    margin: 0 0 0 15px;
+}
+
+.rtl .breadCrumb {
+    text-align: left;
+}
+
+.rtl .jbdetail li span, .rtl .jbdetail li a {
+    text-align: left;
+}
+
+.rtl .job-header .jobinfo .candidateinfo .userPic {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.rtl .col-md-offset-2 {
+    margin-right: 16.66666667%;
+    margin-left: 0;
+}
+
+.rtl .col-md-offset-3 {
+    margin-right: 25%;
+    margin-left: 0;
+}
+
+.rtl .videowraper .titleTop {
+    text-align: right;
+}
+
+.rtl .faqs h4 a {
+    padding: 15px 15px 15px 55px;
+}
+
+.rtl .faqs h4 a:before, .rtl .faqs h4 .collapsed:before {
+    right: auto;
+    left: 15px;
+}
+
+.rtl .contact > span {
+    float: right;
+    margin: 0 0 0 10px;
+}
+
+.rtl .switchbox .txtlbl {
+    float: right;
+}
+
+.rtl .owl-carousel .owl-stage-outer {
+    direction: ltr;
+}
+
+html.rtl .owl-stage {
+    direction: ltr;
+}
+
+body *:not(i), .slidertext1, .sliderpara, .slidertext5 a, .form-control {
+    font-family: 'Droid Arabic Kufi', serif;
+}
+
+.footerWrap .address,
+.footerWrap .email,
+.footerWrap .phone {
+    padding-right: 30px;
+    padding-left: 0;
+}
+
+.footerWrap .address:before,
+.footerWrap .email:before,
+.footerWrap .phone:before {
+    right: 0;
+    left: auto;
+}
+
+.testimonialsList li p {
+    direction: rtl;
+}
+
+.about-wraper ul li {
+    padding: 5px 25px 5px 0;
+}
+
+.about-wraper ul li:before {
+    right: 0;
+    left: auto;
+}
+
+.usernavdash li i {
+    margin-left: 2px;
+    margin-right: 0;
+}
+
+.usernavdash li i.fa-chevron-left {
+    left: 0;
+}
+
+.nav-tabs > li,
+.select2-container .select2-search--inline {
+    float: right;
+}
+
+.jobinfo p, .formrow {
+    text-align: right !important;
+}
+
+.am-links li {
+    float: right;
+}
+
+.usernavdash .sub-menu li a {
+    padding-left: 0;
+    padding-right: 45px;
+}
+
+.modal-body .form-group, .modal-body td,
+.modal-body th, .modal-body h6, #datespan_red, #datespan_red_2 {
+    text-align: right !important;
+}
+
+.modal-title {
+    float: right;
+}
+
+.modal-header .close {
+    float: left;
+}
+
+.modal-footer {
+    text-align: left;
+}
+
+.navbar-brand .visionlogo, .navbar-brand .cdlogo {
+    padding-right: 5px;
+    border-right: 1px solid #ddd;
+}
+
+.objection-body span {
+    float: left;
+}
+
+select.form-control {
+    padding: 0px 12px;
+}
+
+.card-header .fa-chevron-left,
+.card-header .fa-chevron-down {
+    float: left;
+}
+
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after {
+    left: 8px;
+    right: auto !important;
+}
+table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_desc, table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>td.sorting_asc, table.dataTable thead>tr>td.sorting_desc, table.dataTable thead>tr>td.sorting {
+    padding-right: 20px !important;
+    padding-left: 30px !important;
+}
+
+table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable th:last-child, table.table-bordered.dataTable td:last-child, table.table-bordered.dataTable td:last-child {
+    border-left-width: 0 !important;
+    border-right-width: 1px !important;
+}
+
+.messages .profilestat li i {
+    margin-left: 5px;
+    margin-right: 0;
+
+}
+
+.message p, .message-cont p {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.message-cont button {
+    float: left;
+}
+
+.message-cont button a {
+    text-decoration: none;
+}
+
+.checkmark, .rdomark {
+    left: auto;
+    right: 0;
+}
+
+.chk-lbl {
+    padding-left: 0;
+    padding-right: 35px;
+}
+.rdo-lbl {
+    padding-left: 0;
+    padding-right: 20px;
+    margin-left: 35px;
+    margin-right: 0;
+}
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_length {
+    float: right !important;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    float: left !important;
+}
+
+#map-init .badge {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.col-md-8 .loctext {
+    margin-right: 120px;
+}
+
+.chk-lbl {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.comment .col-md-8 p {
+    text-align: right;
+}
+
+.dropbtn {
+    text-align: right;
+}
+
+.dropbtn .fa-caret-down {
+    float: left;
+}
+
+.searchList li p {
+    text-align: right;
+}
+.select2-container .select2-search--inline {
+    float: right !important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__clear {
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+ul.skillslist li a {
+    margin: 5px 0 5px 10px;
+}
+
+.fc-row .fc-content-skeleton tbody td, .fc-row .fc-helper-skeleton tbody td {
+    text-align: right;
+}
+
+.fc-day-grid-event .fc-content {
+    padding-right: 5px;
+}
+
+.form-error.alert.alert-danger li, .form-error.alert.alert-danger strongl {
+    font-family: 'Droid Arabic Kufi', serif;
+}
+
+.lcl_prev:before {
+    content: "\f054" !important;
+}
+
+.lcl_next:before {
+    content: "\f053" !important;
+}

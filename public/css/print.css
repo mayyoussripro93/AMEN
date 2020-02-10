@@ -1,0 +1,53 @@
+table {
+    margin: 5px auto 25px;
+    width: 100%;
+}
+
+hr {
+    border: 1px solid #17ad68;
+    margin-bottom: 35px;
+}
+
+
+#project-table, #print_table, print_table th, print_table td {
+    border: 1px solid #555 !important;
+}
+
+th, td {
+    padding: 10px 15px;
+    color: #333 !important;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#print_table th, #print_table td {
+    border-left: 1px dotted #ddd !important;
+}
+
+.print-vio th, .print-vio td {
+    text-align: right !important;
+}
+
+.fa {
+    font: normal normal normal 14px/1 FontAwesome !important;
+}
+
+.header-table th, .header-table td {
+    text-align: right !important;
+}
+
+.invoiceModal {
+    display: none;
+}
+
+.text-display {
+    width: 100% !important;
+}
+
+.print-projects th:nth-last-child(1), .print-projects td:nth-last-child(1),
+.print-vios th:nth-last-child(1), .print-vios td:nth-last-child(1),
+.print-vios th:nth-last-child(2), .print-vios td:nth-last-child(2) {
+    display: none;
+}
+
+
